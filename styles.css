@@ -1,0 +1,54 @@
+.container-fluid{
+  background-image: url("background1.jpg");
+  height: 100%;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+.company-name{
+  padding: 6rem 5rem 0 5rem;
+  font-size: 4rem;
+  color: white;
+}
+.abt-text{
+  padding: 2rem 5rem 1rem 5rem;
+  font-size: 2rem;
+  color: white;
+}
+/* buy now button */
+.myButton {
+	box-shadow:inset 0 1px 25px 3px #a6827e;
+	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
+	background-color:#7d5d3b;
+	border-radius:12px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:30px;
+	font-weight:bold;
+	padding:11px 27px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #4d3534;
+  margin-left: 5rem;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
+	background-color:#634b30;
+  text-decoration: none;
+  color: white;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.cart-gap{
+  margin-right: 1.2rem;
+}
+/* farmer cartoon on top-section align */
+.top-farmer{
+  text-align: center;
+  height: 45rem;
+}
+.farmer-photo{
+  margin: 4rem 0 0 0;
+}
