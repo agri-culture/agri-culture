@@ -1,8 +1,11 @@
 .container-fluid{
-  background-color: #e7dfd5;
+  background-image: url("background1.jpg");
+  height: 100%;
+  background-size: cover;
+  background-repeat:no-repeat;
 }
 .company-name{
-  padding: 5rem 5rem 0 5rem;
+  padding: 6rem 5rem 0 5rem;
   font-size: 4rem;
   color: white;
 }
@@ -38,17 +41,14 @@
 	position:relative;
 	top:1px;
 }
+.cart-gap{
+  margin-right: 1.2rem;
+}
 /* farmer cartoon on top-section align */
 .top-farmer{
   text-align: center;
   height: 45rem;
 }
 .farmer-photo{
-  margin: 2rem 0 0 0;
-}
-.crop-photo{
-  width: 40rem;
-  position: relative;
-  bottom: 18.6rem;
-  height: 18.9rem
+  margin: 4rem 0 0 0;
 }
