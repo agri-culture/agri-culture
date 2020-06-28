@@ -78,6 +78,9 @@
   padding-bottom: 6rem;
   background-color: #eeeeee;
 }
+.col-md-12{
+  margin-bottom: 3rem;
+}
 .quality-icon{
   font-size: 4rem;
   margin-bottom: 1rem;
