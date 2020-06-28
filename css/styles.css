@@ -1,18 +1,31 @@
-.container-fluid{
+/* to change properties of navbar brand */
+.navbar-brand{
+  margin-left: 4rem;
+  font-size: 1.6rem;
+}
+/* change color of tab1 tab2 tab3 to white */
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.4rem;
+}
+/* to set wallpaper on top container and make parallax effect */
+.top-cont{
   background-image: url("background1.jpg");
-  height: 100%;
   background-size: cover;
   background-repeat:no-repeat;
-}
-.company-name{
-  padding: 6rem 5rem 0 5rem;
-  font-size: 4rem;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
   color: white;
+}
+
+.company-name{
+  padding: 6rem 5rem 0 4rem;
+  font-size: 4rem;
 }
 .abt-text{
-  padding: 2rem 5rem 1rem 5rem;
+  padding: 2rem 5rem 1rem 4rem;
   font-size: 2rem;
-  color: white;
 }
 /* buy now button */
 .myButton {
@@ -29,7 +42,7 @@
 	padding:11px 27px;
 	text-decoration:none;
 	text-shadow:0 1px 0 #4d3534;
-  margin-left: 5rem;
+  margin-left: 4rem;
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
@@ -51,4 +64,91 @@
 }
 .farmer-photo{
   margin: 4rem 0 0 0;
+}
+
+
+
+
+
+/* Qualities Section */
+
+#qualities{
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #eeeeee;
+}
+.quality-icon{
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #a8df65;
+}
+.quality-txt{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  width: 60%;
+  margin: auto;
+}
+/* shake quality icons */
+.quality-icon:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+/* MEET THE team */
+#team{
+  text-align:center;
+  margin-top: 3rem;
+}
+
+/* modal */
+.modal{
+  text-align: center;
+}
+.modal-backdrop {
+  background-color: #e7dfd5;
+}
+.modal-content{
+  background-color: #e7dfd5;
+}
+.team-name{
+  font-size: 1rem;
+}
+.names{
+  font-size: 1.3rem;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #e7dfd5;
+}
+.container {
+  padding: 0 16px;
+}
+
+.team-img{
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.team-ico{
+  font-size: 2rem;
+  margin: 0 1rem 2rem 1rem;
+}
+.team-ico:hover {
+  color: blue;
 }
