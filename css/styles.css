@@ -2,6 +2,7 @@
 .navbar-brand{
   margin-left: 4rem;
   font-size: 1.6rem;
+  color: white;
 }
 /* change color of tab1 tab2 tab3 to white */
 .navbar-dark .navbar-nav .nav-link {
