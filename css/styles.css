@@ -9,67 +9,29 @@
     color: white;
     font-size: 1.4rem;
 }
-/* to set wallpaper on top container and make parallax effect */
-.top-cont{
-  background-image: url("background1.jpg");
-  background-size: cover;
-  background-repeat:no-repeat;
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
+@media only screen and (min-width: 800px) {
+  .d-block{
+    height: 40rem;
+  }
+  .buy-now-btn{
+    font-size: 70px;
+  }
+}
+/* buy now btn inside into */
+.buy-now-btn{
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #12947f;
   color: white;
+  font-size: 50px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2rem;
 }
-
-.company-name{
-  padding: 6rem 5rem 0 4rem;
-  font-size: 4rem;
-}
-.abt-text{
-  padding: 2rem 5rem 1rem 4rem;
-  font-size: 2rem;
-}
-/* buy now button */
-.myButton {
-	box-shadow:inset 0 1px 25px 3px #a6827e;
-	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
-	background-color:#7d5d3b;
-	border-radius:12px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:30px;
-	font-weight:bold;
-	padding:11px 27px;
-	text-decoration:none;
-	text-shadow:0 1px 0 #4d3534;
-  margin-left: 4rem;
-}
-.myButton:hover {
-	background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
-	background-color:#634b30;
-  text-decoration: none;
-  color: white;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
-.cart-gap{
-  margin-right: 1.2rem;
-}
-/* farmer cartoon on top-section align */
-.top-farmer{
-  text-align: center;
-  height: 45rem;
-}
-.farmer-photo{
-  margin: 4rem 0 0 0;
-}
-
-
-
-
 
 /* Qualities Section */
 
@@ -85,7 +47,7 @@
 .quality-icon{
   font-size: 4rem;
   margin-bottom: 1rem;
-  color: #a8df65;
+  color: #12947f;
 }
 .quality-txt{
   font-size: 1.5rem;
